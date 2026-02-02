@@ -77,6 +77,9 @@ body {
 .nav_links .dropdown-menu li a:hover {
     background-color: #f1f1f1;
 }
+.nav_links .dropdown.active .dropdown-menu {
+    display: block;
+}
 
 .content {
     display: flex;
@@ -202,7 +205,7 @@ p {
   color: #aaa;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
